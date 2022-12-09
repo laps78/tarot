@@ -1,3 +1,5 @@
+import { riderWaiteCollection } from '../../collections/riderWaiteCollection';
+
 export default class Master {
   constructor(collection) {
     this.collection = collection;
