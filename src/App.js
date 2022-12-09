@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>НЛО прилетело и опубликовало эту надпись здесь</p>
       </header>
     </div>
   );
