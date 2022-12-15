@@ -1,4 +1,4 @@
-import { riderWaiteCollection } from '../../collections/riderWaiteCollection';
+import { waiteCollection } from '../collections/riderWaiteCollection';
 
 export default class Master {
   constructor(collection) {

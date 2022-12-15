@@ -24,6 +24,7 @@
         "import/extensions": "off",
         "react/jsx-one-expression-per-line": "off",
         "import/prefer-default-export": "warn",
-        "object-curly-newline": "warn"
+        "object-curly-newline": "warn",
+        "no-unused-vars": "warn"
     }
 }
