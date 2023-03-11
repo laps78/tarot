@@ -2,7 +2,7 @@ import './PageCards.css';
 import CardView from './CardView.js';
 import nanoid from 'nanoid';
 
-export default function PageCards({ collecion }){
+function PageCards({ collection }){
   const makeCardsReviewList = () => collection.cards.map(card => {
     const id = nanoid();
     <CardView
@@ -17,7 +17,12 @@ export default function PageCards({ collecion }){
   });
   return (
     <div className="cardReviews_wrapper">
-      <h2 className="PageHeder">{ collecion.name }</h2>
-      { }
+      <h1 className="PageHeder">{ collecion.name }</h1>
+      <p className="cards_collection_description">
+        { collection.description }
+      </p>
+      { makeCardsReviewList() }
     </div>);
 }
+
+export default PageCards;
