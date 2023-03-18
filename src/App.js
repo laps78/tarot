@@ -4,6 +4,10 @@ import './App.css';
 import Page from './components/Page.js';
 import Nav from './components/Nav/Nav.js'
 
+/**
+* Компонент отвечает за вывод опредленных страниц приложения, 
+* текущая страница хранится в @page
+* */
 function App() {
   const pages = [ 
     {
